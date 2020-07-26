@@ -414,7 +414,7 @@ var QRCode;
                 console.log(res.tempFilePath)
                 callback(res.tempFilePath)
             }
-        })
+        }, this._htOption.usingIn)
     }
 
     QRCode.CorrectLevel = QRErrorCorrectLevel;
